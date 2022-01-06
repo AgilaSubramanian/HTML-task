@@ -353,6 +353,7 @@ output Link: http://127.0.0.1:5500/table.html
 
 7.Design form given in link:
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -360,34 +361,43 @@ output Link: http://127.0.0.1:5500/table.html
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="table.css"/>
+    
     <script src="print.js"></script>
 </head>
 <body>
     <table>
-<h1 style="background: red;color: white; text-align:left ;" >
+<h1 style="background: red;color: white; text-align:center;" >
     Yes! I want to subscribe to Mag-O-Zine</h1>
-    <input type="text" >  <input type="text", alignment="center" ><br>
-    Firstname                     Last Name<br>
-    <input type="text"><br>
-    Address <br>
-    <input type="text">
-    <input type="text">
-    <input type="text"><br>
-    city
-    state
-    Zip
+    
+    <input name="text" input type="text" size="40px" style="margin-left:20px; border:none; border-bottom: 2px solid black;">
+     <input name="text" input type="text" size="40px"; style="margin-left: 100px;border:none; border-bottom: 2px solid black; "><br>
+     <label for="First Name" style="margin-left: 30px; font-size: large;">First Name</label>
+     <label for="LastName" style="margin-left: 320px; font-size: large; ">LastName</label>
+     <br><br>
+    <input name="text" input type="text" size="100px"; style="margin-left:20px; border:none; border-bottom: 2px solid black;" ><br>
+    <label for="Address" style="margin-left: 30px; font-size:larger;">Address</label> <br><br>
+    <input name="text" input type="text" size="25px"; style="margin-left:20px; border:none; border-bottom: 2px solid black;">
+    <input name="text" input type="text" size="25px"; style="margin-left:50px; border:none; border-bottom: 2px solid black;">
+    <input name="text" input type="text" size="25px"; style="margin-left:50px; border:none; border-bottom: 2px solid black;"><br>
+    <label for="City" style="font-size: larger; margin-left: 30px;">City</label>
+    <label for="State" style="font-size: larger; margin-left: 230px;">State</label>
+    <label for="Pincode" style="font-size: larger; margin-left: 230px;">PIN</label>
 <br>
-  <b>Subscribe for: <input type="checkbox"> 1year($19.91) 
-    <input type="checkbox">2years($35.00)<br>
-    Send me more information about:<br>
-    <input type="checkbox">computer-Zine<br>
-    <input type="checkbox">Fishing-Zine<br>
-    <input type="checkbox">Cai-O-Zine<br>
+<br>
+
+
+  <b style="font-size: larger; margin-left: 30px;">Subscribe for: <input type="checkbox"> 1year($19.91) 
+    <input type="checkbox" style="font-size: larger; margin-left: 30px;">2years($35.00)<br>
+    <b style="font-size: larger; margin-left: 30px;">Send me more information about:<br></b>
+    <input type="checkbox" style="font-size: larger; margin-left: 30px;">computer-Zine<br>
+    <input type="checkbox" style="font-size: larger; margin-left: 30px;">Fishing-Zine<br>
+    <input type="checkbox" style="font-size: larger; margin-left: 30px;">Cai-O-Zine<br>
   </table>
     
 </body>
 </html>
 
+
+  
 
 
